@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import {  useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 const navigation = [
   { name: "Product", href: "#" },
@@ -53,7 +53,7 @@ const Home = () => {
               </a>
             ))}
           </div>
-          <div className="hidden lg:flex lg:flex-1 lg:justify-end">
+          <div className=" lg:flex lg:flex-1 lg:justify-end">
             <button
               className="bg-red-400 px-4 py-2 rounded-xl"
               onClick={() => {
@@ -127,7 +127,7 @@ const Home = () => {
             </div>
           </div>
           <div className="text-center">
-            <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
+            <h1 className="md:text-2xl lg:text-3xl xl:text-4xl font-bold tracking-tight text-gray-900 sm:text-xl">
               Data to enrich your online business
             </h1>
             <p className="mt-6 text-lg leading-8 text-gray-600">
